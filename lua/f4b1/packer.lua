@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-   use {
+  use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.5',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
 	  end,}
   
   use("theprimeagen/harpoon")
+  use("theprimeagen/vim-be-good")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
 
@@ -66,4 +67,6 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+
+  use("github/copilot.vim")
 end)
