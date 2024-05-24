@@ -51,6 +51,7 @@ return require('packer').startup(function(use)
   use("windwp/nvim-ts-autotag")
   use('vim-airline/vim-airline')
   use('vim-airline/vim-airline-themes')
+  use('lervag/vimtex')
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
