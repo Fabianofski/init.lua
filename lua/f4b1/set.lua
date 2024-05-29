@@ -30,3 +30,9 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+vim.cmd([[
+  augroup WrapTextForTexMd
+    autocmd!
+    autocmd FileType tex,markdown setlocal textwidth=0 wrap linebreak
+  augroup END
+]])
