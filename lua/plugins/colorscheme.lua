@@ -1,12 +1,11 @@
 return {
-  -- add gruvbox
-  { "sainnhe/gruvbox-material" },
+  { "AlexvZyl/nordic.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "nordic",
     },
   },
 }
